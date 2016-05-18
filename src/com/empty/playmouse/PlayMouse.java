@@ -124,7 +124,7 @@ class GameSatart extends JFrame{
 			});
 		}
 	}
-	//随机显示提莫线程
+	//随机显示提莫线程啊
 	private class GameThread implements Runnable{
 
 		@Override
@@ -137,7 +137,6 @@ class GameSatart extends JFrame{
 					Thread.sleep(800);
 					timos[index].setIcon(null);
 				} catch (InterruptedException e) {
-					// TODO Auto-generated catch block
 					e.printStackTrace();
 				}
 				
